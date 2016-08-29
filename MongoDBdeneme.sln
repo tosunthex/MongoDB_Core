@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9739580-BA7A-450A-ABAC-B554FD807810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECF01390-3D19-4882-A812-9DFCE1052925}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MongoDBdeneme", "src\MongoDBdeneme\MongoDBdeneme.xproj", "{5038827C-7259-4E8B-8CDC-7D8CD2366FBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5038827C-7259-4E8B-8CDC-7D8CD2366FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5038827C-7259-4E8B-8CDC-7D8CD2366FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5038827C-7259-4E8B-8CDC-7D8CD2366FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5038827C-7259-4E8B-8CDC-7D8CD2366FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5038827C-7259-4E8B-8CDC-7D8CD2366FBF} = {D9739580-BA7A-450A-ABAC-B554FD807810}
+	EndGlobalSection
+EndGlobal
